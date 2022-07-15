@@ -25,6 +25,34 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	overflow-x: hidden;
 }
+.dark-mode {
+	background-image: url("../images/whitebackground.png");
+	background-color: black;
+	color: white;
+}
+button {
+	background-color: #ddd;
+	border: none;
+	color: black;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	opacity: 1;
+	transition: all 0.3s;
+}
+
+.button {background-color: #ddd;} /* Blue */
+.button:hover {background: rgb(148, 148, 148);}
+
+.button:active {
+	background-color: rgb(73, 73, 73);
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
 h1 {
 	font-family: "Splatfont";
 }
