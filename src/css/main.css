@@ -102,6 +102,12 @@ li {
 	height: auto;
 	margin-bottom: 0;
 }
+.stages img{
+	text-align: left;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 0;
+}
 span {
 	color: red;
 }
@@ -118,12 +124,44 @@ span {
 	margin-bottom: 2em;
 	padding: .75em;
 }
-.questions, .faq, .credits {
+.stages {
+	background-image: url("../images/bg-main.png");
+	margin-bottom: 2em;
+	padding: .75em;
+	border-radius: 16px;
+	background-repeat: repeat;
+	background-size:10%;
+}
+.container-stages {
+	background-image: url("../images/bg-main.png");
+	margin-bottom: 2em;
+	padding: .75em;
+	border-radius: 16px;
+	background-repeat: repeat;
+	background-size:10%;
+}
+.turf {
+	background-image: url("../images/bg-main-dark.png");
+	margin-bottom: 2em;
+	padding: .75em;
+	border-radius: 16px;
+	background-repeat: repeat;
+	background-size:10%;
+}
+.ranked {
+	background-image: url("../images/bg-main-dark.png");
+	margin-bottom: 2em;
+	padding: .75em;
+	border-radius: 16px;
+	background-repeat: repeat;
+	background-size:10%;
+}
+.questions, .faq, .credits, .stages {
 	margin-left: 1%;
 	margin-right: 1%;
 	text-align: center;
 }
-.questions, .credits, .credits ul {
+.questions, .stages, .credits, .credits ul {
 	font-family: 'Splatfont', cursive;
 }
 .credits h2 {
@@ -151,6 +189,11 @@ span {
 	font-size: 1.8em;
 	font-family: 'Splatfont', cursive;
 }
+.stages p {
+	margin-top: 10px;
+	font-size: 1.0em;
+	font-family: 'Splatfont', cursive;
+}
 .line {
 	/*height: 2px !important;
 	color: white !important;
@@ -160,6 +203,19 @@ span {
 }
 .links {
 	font-size: 8pt;
+}
+/* Container holding the image and the text */
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+
+}
+/* Bottom right text */
+.bottom-right {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
 }
 .links-title {
 	font-size: 12pt;
