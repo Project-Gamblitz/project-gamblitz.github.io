@@ -10,6 +10,13 @@
 	url("../font/Splatfont2.ttf");
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -38,15 +45,38 @@ body {
     pointer-events: none;
 }
 
-.text-img {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
+.text {
     z-index: 3; 
-    pointer-events: none;
+    color: white;
+}
+
+.text1 {
+    font-family: Splatfont2;
+    font-size: 30px;
+    margin: 0;
+}
+
+.text2 {
+    font-family: Splatfont2;
+    font-size: 45px;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.text3 {
+    font-family: Splatfont;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 200px;
+}
+
+.sneakpeek {
+    height: 100%;
+}
+
+.sneakpeek p {
+    /* margin: 0; */
+    line-height: 1.2;
 }
 
 a, a:visited {
